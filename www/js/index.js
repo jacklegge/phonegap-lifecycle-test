@@ -31,16 +31,16 @@ var launched_count = 0;
 
     // Handle the pause event
     //
-    //function onPause() {
-		//alert("pause");
-		//paused_count++;
-		//updateDisplay();
+    function onPause() {
+    alert("pause");
+		paused_count++;
+		updateDisplay();
     }
 	
-    // Handle the resume event
-    //
-	//function onResume() {
-		//alert("resume");
-		//resumed_count++;
-		//updateDisplay();
+    //Handle the resume event
+    
+    function onResume() {
+		alert("resume");
+		resumed_count++;
+		updateDisplay();
     }
